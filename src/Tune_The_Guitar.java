@@ -15,149 +15,210 @@ public class Tune_The_Guitar {
 	//test results for guitar in standard tuning
 	public void test_guitar_standard(Guitar guitar) {
 		try {
-			assertEquals(guitar.get_string_1(), 'E');
-			System.out.println("1 String: E");
-		} catch(AssertionError | ArrayIndexOutOfBoundsException e) {
+			if (guitar.get_string_1() == 'E') {
+				System.out.println("1 String: E");
+			} else {
+				System.out.println("1 String: test fails");
+			}
+		} catch(ArrayIndexOutOfBoundsException e) {
 			System.out.println("1 String: test fails");
 		}
 
 		try {
-			assertEquals(guitar.get_string_2(), 'A');
-			System.out.println("2 String: A");
-		} catch(AssertionError | ArrayIndexOutOfBoundsException e) {
+			if (guitar.get_string_2() == 'A') {
+				System.out.println("2 String: A");
+			} else {
+				System.out.println("2 String: test fails");
+			}
+		} catch(ArrayIndexOutOfBoundsException e) {
 			System.out.println("2 String: test fails");
 		}
 
 		try {
-			assertEquals(guitar.get_string_3(), 'D');
-			System.out.println("3 String: D");
-		} catch(AssertionError | ArrayIndexOutOfBoundsException e) {
+			if (guitar.get_string_3() == 'D') {
+				System.out.println("3 String: D");
+			} else {
+				System.out.println("3 String: test fails");
+			}
+		} catch(ArrayIndexOutOfBoundsException e) {
 			System.out.println("3 String: test fails");
 		}
 
 		try {
-			assertEquals(guitar.get_string_4(), 'G');
-			System.out.println("4 String: G");
-		} catch(AssertionError | ArrayIndexOutOfBoundsException e) {
+			if (guitar.get_string_4() == 'G') {
+				System.out.println("4 String: G");
+			} else {
+				System.out.println("4 String: test fails");
+			}
+		} catch(ArrayIndexOutOfBoundsException e) {
 			System.out.println("4 String: test fails");
 		}
 
 		try {
-			assertEquals(guitar.get_string_5(), 'B');
-			System.out.println("5 String: B");
-		} catch(AssertionError | ArrayIndexOutOfBoundsException e) {
+			if (guitar.get_string_5() == 'B') {
+				System.out.println("5 String: B");
+			} else {
+				System.out.println("5 String: test fails");
+			}
+		} catch(ArrayIndexOutOfBoundsException e) {
 			System.out.println("5 String: test fails");
 		}
 
 		try {
-			assertEquals(guitar.get_string_6(), 'E');
-			System.out.println("6 String: E");
-		} catch(AssertionError | ArrayIndexOutOfBoundsException e) {
+			if (guitar.get_string_6() == 'E') {
+				System.out.println("6 String: E");
+			} else {
+				System.out.println("6 String: test fails");
+			}
+		} catch(ArrayIndexOutOfBoundsException e) {
 			System.out.println("6 String: test fails");
 		}
 	}
 	
 	public void test_guitar_drop_d(Guitar guitar) {
 		try {
-			assertEquals(guitar.get_string_1(), 'D');
-			System.out.println("1 String: D");
-		} catch(AssertionError | ArrayIndexOutOfBoundsException e) {
+			if (guitar.get_string_1() == 'D') {
+				System.out.println("1 String: D");
+			} else {
+				System.out.println("1 String: test fails");
+			}
+		} catch(ArrayIndexOutOfBoundsException e) {
 			System.out.println("1 String: test fails");
 		}
 
 		try {
-			assertEquals(guitar.get_string_2(), 'A');
-			System.out.println("2 String: A");
-		} catch(AssertionError | ArrayIndexOutOfBoundsException e) {
+			if (guitar.get_string_2() == 'A') {
+				System.out.println("2 String: A");
+			} else {
+				System.out.println("2 String: test fails");
+			}
+		} catch(ArrayIndexOutOfBoundsException e) {
 			System.out.println("2 String: test fails");
 		}
 
 		try {
-			assertEquals(guitar.get_string_3(), 'D');
-			System.out.println("3 String: D");
-		} catch(AssertionError | ArrayIndexOutOfBoundsException e) {
+			if (guitar.get_string_3() == 'D') {
+				System.out.println("3 String: D");
+			} else {
+				System.out.println("3 String: test fails");
+			}
+		} catch(ArrayIndexOutOfBoundsException e) {
 			System.out.println("3 String: test fails");
 		}
 
 		try {
-			assertEquals(guitar.get_string_4(), 'G');
-			System.out.println("4 String: G");
-		} catch(AssertionError | ArrayIndexOutOfBoundsException e) {
+			if (guitar.get_string_4() == 'G') {
+				System.out.println("4 String: G");
+			} else {
+				System.out.println("4 String: test fails");
+			}
+		} catch(ArrayIndexOutOfBoundsException e) {
 			System.out.println("4 String: test fails");
 		}
 
 		try {
-			assertEquals(guitar.get_string_5(), 'B');
-			System.out.println("5 String: B");
-		} catch(AssertionError | ArrayIndexOutOfBoundsException e) {
+			if (guitar.get_string_5() == 'B') {
+				System.out.println("5 String: B");
+			} else {
+				System.out.println("5 String: test fails");
+			}
+		} catch(ArrayIndexOutOfBoundsException e) {
 			System.out.println("5 String: test fails");
 		}
+		
 
 		try {
-			assertEquals(guitar.get_string_6(), 'E');
-			System.out.println("6 String: E");
-		} catch(AssertionError | ArrayIndexOutOfBoundsException e) {
+			if (guitar.get_string_6() == 'E') {
+				System.out.println("6 String: E");
+			} else {
+				System.out.println("6 String: test fails");
+			}
+		} catch(ArrayIndexOutOfBoundsException e) {
 			System.out.println("6 String: test fails");
 		}
 	}
 	
 	public void test_bass_standard(Bass bass) {
 		try {
-			assertEquals(bass.get_string_1(), 'E');
-			System.out.println("1 String: E");
-		} catch(AssertionError | ArrayIndexOutOfBoundsException e) {
+			if (bass.get_string_1() == 'E') {
+				System.out.println("1 String: E");
+			} else {
+				System.out.println("1 String: test fails");
+			}
+		} catch(ArrayIndexOutOfBoundsException e) {
 			System.out.println("1 String: test fails");
-		}
-		
-		try {
-			assertEquals(bass.get_string_2(), 'A');
-			System.out.println("2 String: A");
-		} catch(AssertionError | ArrayIndexOutOfBoundsException e) {
-			System.out.println("2 String:test fails");
 		}
 
 		try {
-			assertEquals(bass.get_string_3(), 'D');
-			System.out.println("3 String: D");
-		} catch(AssertionError | ArrayIndexOutOfBoundsException e) {
+			if (bass.get_string_2() == 'A') {
+				System.out.println("2 String: A");
+			} else {
+				System.out.println("2 String: test fails");
+			}
+		} catch(ArrayIndexOutOfBoundsException e) {
+			System.out.println("2 String: test fails");
+		}
+
+		try {
+			if (bass.get_string_3() == 'D') {
+				System.out.println("3 String: D");
+			} else {
+				System.out.println("3 String: test fails");
+			}
+		} catch(ArrayIndexOutOfBoundsException e) {
 			System.out.println("3 String: test fails");
 		}
-		
+
 		try {
-			assertEquals(bass.get_string_4(), 'G');
-			System.out.println("4 String: G");
-		} catch(AssertionError | ArrayIndexOutOfBoundsException e) {
+			if (bass.get_string_4() == 'G') {
+				System.out.println("4 String: G");
+			} else {
+				System.out.println("4 String: test fails");
+			}
+		} catch(ArrayIndexOutOfBoundsException e) {
 			System.out.println("4 String: test fails");
 		}
 	}
 	
 	public void test_bass_drop_d(Bass bass) {
 		try {
-			assertEquals(bass.get_string_1(), 'D');
-			System.out.println("1 String: D");
-		} catch(AssertionError | ArrayIndexOutOfBoundsException e) {
-			System.out.println("1 String test fails");
-		}
-		
-		try {
-			assertEquals(bass.get_string_2(), 'A');
-			System.out.println("2 String: A");
-		} catch(AssertionError | ArrayIndexOutOfBoundsException e) {
-			System.out.println("2 String test fails");
+			if (bass.get_string_1() == 'D') {
+				System.out.println("1 String: D");
+			} else {
+				System.out.println("1 String: test fails");
+			}
+		} catch(ArrayIndexOutOfBoundsException e) {
+			System.out.println("1 String: test fails");
 		}
 
 		try {
-			assertEquals(bass.get_string_3(), 'D');
-			System.out.println("3 String: D");
-		} catch(AssertionError | ArrayIndexOutOfBoundsException e) {
-			System.out.println("3 String test fails");
+			if (bass.get_string_2() == 'A') {
+				System.out.println("2 String: A");
+			} else {
+				System.out.println("2 String: test fails");
+			}
+		} catch(ArrayIndexOutOfBoundsException e) {
+			System.out.println("2 String: test fails");
 		}
-		
+
 		try {
-			assertEquals(bass.get_string_4(), 'G');
-			System.out.println("4 String: G");
-		} catch(AssertionError | ArrayIndexOutOfBoundsException e) {
-			System.out.println("4 String test fails");
+			if (bass.get_string_3() == 'D') {
+				System.out.println("3 String: D");
+			} else {
+				System.out.println("3 String: test fails");
+			}
+		} catch(ArrayIndexOutOfBoundsException e) {
+			System.out.println("3 String: test fails");
+		}
+
+		try {
+			if (bass.get_string_4() == 'G') {
+				System.out.println("4 String: G");
+			} else {
+				System.out.println("4 String: test fails");
+			}
+		} catch(ArrayIndexOutOfBoundsException e) {
+			System.out.println("4 String: test fails");
 		}
 	}
 
